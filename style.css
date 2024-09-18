@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    /* Como mantener bien el parrafo? */
+}
+
+.friend li {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    gap: 20px
+}
+
+.friend {
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#experts {
+    height: 300px;
+    width: auto;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
